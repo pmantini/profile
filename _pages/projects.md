@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Current research projects
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [research,  software & patents, datasets]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -63,3 +63,4 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
