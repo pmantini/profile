@@ -287,8 +287,7 @@ scholar:
   group_by: none
   last_name: [Mantini]
   first_name: [Pranav]
-
-  style: apa
+  
   locale: en
 
   source: _bibliography
