@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cs.uh.edu/~pmantini/sitemap.xml
+Sitemap: https://pmantini.github.io/profile/sitemap.xml
