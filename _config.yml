@@ -283,8 +283,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   style: apa
   sort_by: year
-  order: descending # This ensures 2026 is at the top
-  group_by: none
+  order: descending # This ensures 2026 is at the top  
   last_name: [Mantini]
   first_name: [Pranav]
   
