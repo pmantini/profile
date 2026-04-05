@@ -139,6 +139,22 @@ external_sources:
         description: "Official project page for the BiCLIP paper on arXiv."
     categories: [external-posts]
     tags: [clip]
+  - name: UHCTD
+    posts:
+      - title: "A Comprehensive Dataset for Camera Tampering Detection"
+        url: https://pmantini.github.io/profile/projects/uhctd/
+        published_date: 2026-01-08 # Use the date of your paper/release
+        description: "Project page for UHCTD"
+    categories: [internal-posts]
+    tags: [datasets]
+  - name: ADOC
+    posts:
+      - title: "A Day on Campus Dataset. An Anomaly Detection Dataset for Events in a Single Camera."
+        url: https://pmantini.github.io/profile/projects/adoc/
+        published_date: 2026-01-08 # Use the date of your paper/release
+        description: "Project page for ADOC"
+    categories: [internal-posts]
+    tags: [datasets]
   # - name: medium.com
   #   rss_url: https://medium.com/@al-folio/feed
   #   categories: [external-posts]
