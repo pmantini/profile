@@ -1,0 +1,166 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Multi-Modal Spaces | Pranav Mantini </title> <meta name="author" content="Pranav Mantini"> <meta name="description" content="Motivation for Multi-Modal Spaces."> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/profile/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/profile/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/profile/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/profile/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;P&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/profile/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://pmantini.github.io/profile/blog/2026/clip/"> <script src="/profile/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/profile/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/profile/"> Pranav Mantini </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/profile/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/profile/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/profile/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/profile/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/profile/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Multi-Modal Spaces</h1> <p class="post-meta"> Created on April 03, 2026 </p> <p class="post-tags"> <a href="/profile/blog/2026"> <i class="fa-solid fa-calendar fa-sm"></i> 2026 </a>   ·   <a href="/profile/blog/tag/clip"> <i class="fa-solid fa-hashtag fa-sm"></i> clip</a>   ·   <a href="/profile/blog/category/clip"> <i class="fa-solid fa-tag fa-sm"></i> clip</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <ul id="markdown-toc"> <li> <a href="#a-simple-view-of-cnns-or-transformers" id="markdown-toc-a-simple-view-of-cnns-or-transformers">A Simple View of CNNs or Transformers</a> <ul> <li> <a href="#vision-models" id="markdown-toc-vision-models">Vision Models</a> <ul> <li> <a href="#embedding-spaces-for-retrieval" id="markdown-toc-embedding-spaces-for-retrieval">Embedding Spaces for Retrieval</a> <ul> <li><a href="#example-image-based-search" id="markdown-toc-example-image-based-search">Example: Image-Based Search</a></li> </ul> </li> </ul> </li> <li><a href="#textual-models" id="markdown-toc-textual-models">Textual Models</a></li> </ul> </li> <li> <a href="#mult-modal-spaces" id="markdown-toc-mult-modal-spaces">Mult-Modal Spaces</a> <ul> <li><a href="#the-cross-modal-search-problem" id="markdown-toc-the-cross-modal-search-problem">The Cross-Modal Search Problem</a></li> <li> <a href="#multimodal-spaces" id="markdown-toc-multimodal-spaces">Multimodal spaces</a> <ul> <li><a href="#challenges-to-achieving-harmony" id="markdown-toc-challenges-to-achieving-harmony">Challenges to Achieving Harmony</a></li> </ul> </li> </ul> </li> <li><a href="#clip-contrastive-language-image-pre-training" id="markdown-toc-clip-contrastive-language-image-pre-training">CLIP (Contrastive Language-Image Pre-training)</a></li> </ul> <p>Every modern AI model, whether it processes images or text, lives in a world of <strong>Embeddings</strong>.</p> <h3 id="a-simple-view-of-cnns-or-transformers">A Simple View of CNNs or Transformers</h3> <h4 id="vision-models">Vision Models</h4> <p>If you consider a Convolutional Neural Network (CNN) or a Vision Transformer that are commonly used for image classification, you can conceptually split it into two distinct functional units:</p> <ul> <li> <p><strong>The Feature Extractor (The Encoder):</strong> Consider images of dogs: they come in different breeds, sizes, and colors. They can be photographed from different angles, in different lighting, or even obscured by noise and clutter. However, they all relate to a specific concept “dog” despite having large variance in pixels and their orgnizations.</p> <p>The goal of a robust Encoder is to ignore these superficial variations and focus on the semantic content. It must map a blurry or a top-down photo of a Golden Retriever, or a high-resolution side profile of a Husky to high-dimensional vectors. Such that these vectors when views in a geometric space (embedding space) they cluster together into groups represnting semantic concepts. The encoder in essence is performing a mathematical “distillation” process to cast semantically equalent concepts into clusters.</p> <p>In the chart below, see how the “Dogs” cluster stays together despite being “Noisy” (spread out), while the “Vehicles” cluster remains distinct. This demonstrates how the encoder handles variance while maintaining semantic grouping:</p> </li> </ul> <pre><code class="language-plotly">{
+  "data": [
+    {
+      "x": [1.1, 1.5, 0.8, 1.2, 1.4, 0.9, 1.3, 1.1],
+      "y": [5.1, 5.5, 4.9, 5.2, 5.6, 4.8, 5.3, 5.0],
+      "mode": "markers",
+      "type": "scatter",
+      "name": "Images of Dogs",
+      "marker": { "color": "rgb(200, 16, 46)", "size": 10 }
+    },
+    {
+      "x": [4.1, 4.5, 3.8, 4.2, 4.4, 3.9, 4.3, 4.1],
+      "y": [1.1, 1.5, 0.9, 1.2, 1.6, 0.8, 1.3, 1.0],
+      "mode": "markers",
+      "type": "scatter",
+      "name": "Images of Vehicles",
+      "marker": { "color": "rgb(0, 123, 255)", "size": 10 }
+    }
+  ],
+  "layout": {
+    "title": "Robust Semantic Clustering in 2D",
+    "xaxis": { "title": "Feature Dimension 1", "range": [0, 6] },
+    "yaxis": { "title": "Feature Dimension 2", "range": [0, 7] },
+    "shapes": [
+      {
+        "type": "circle",
+        "xref": "x", "yref": "y",
+        "x0": 0.6, "y0": 4.5, "x1": 1.7, "y1": 5.8,
+        "line": { "color": "rgb(200, 16, 46)", "dash": "dash" },
+        "opacity": 0.3
+      },
+      {
+        "type": "circle",
+        "xref": "x", "yref": "y",
+        "x0": 3.6, "y0": 0.6, "x1": 4.7, "y1": 1.8,
+        "line": { "color": "rgb(0, 123, 255)", "dash": "dash" },
+        "opacity": 0.3
+      }
+    ],
+    "annotations": [
+      {
+        "x": 1.1, "y": 6.2, "text": "Canine Neighborhood", "showarrow": false, "font": { "color": "rgb(200, 16, 46)" }
+      },
+      {
+        "x": 4.1, "y": 2.1, "text": "Vehicle Neighborhood", "showarrow": false, "font": { "color": "rgb(0, 123, 255)" }
+      }
+    ]
+  }
+}
+</code></pre> <ul> <li> <p><strong>The Classifier (The Head):</strong> The Classifier is the “Decision Maker.” It takes the high-dimensional embedding and computes the probability that it belongs to a particular class (e.g., Dog vs. Car).</p> <p>However, there is a fundamental rule in machine learning: The Classifier can only be as good as the robustness of the embedding features. If the Encoder is weak, the “Canine” and “Vehicle” embeddings will overlap in a messy, inseparable cloud. No matter how complex your Classifier is, it will struggle to draw a boundary between them. But if the Encoder is robust, it creates “Semantic clusters” that are distinct and can allow for good accuracy.</p> </li> </ul> <h5 id="embedding-spaces-for-retrieval">Embedding Spaces for Retrieval</h5> <p>Once we have a robust Embedding Space, we can do more than just classify images. We can use the geometry of the space for Matching and Retrieval.</p> <p>In a retrieval system, we don’t ask the model “What objects is in this image?” Instead, we ask, “what other images contain this object”. In order to achive this, we take a “Query Image,” find its coordinate, and look for its “Nearest Neighbors” in the database. This allows us to find visually and semantically similar items even if they don’t have a label.</p> <h6 id="example-image-based-search">Example: Image-Based Search</h6> <p>Imagine you are building a search engine for images in a database. A user uploads a query photo of a German Shepherd they saw on the street.</p> <ul> <li> <p>The Extraction: Your Encoder processes the photo and generates a unique embedding vector—a specific coordinate in your “Canine” neighborhood.</p> </li> <li> <p>The Search: The system calculates the mathematical distance (often using Cosine Similarity) between the query’s coordinate and every other image embedding in your database.</p> </li> <li> <p>The Result: The images with the “closest” coordinates are returned. Because your space is semantically robust, the top results won’t just be vehicles or any dogs; they will be German Shepherds with similar frame geometries, even if those specific attributes were never manually tagged by a human.</p> </li> </ul> <pre><code class="language-plotly">{
+  "data": [
+    {
+      "x": [1.5, 1.6, 1.4, 4.0],
+      "y": [5.2, 5.3, 5.1, 1.5],
+      "mode": "markers+text",
+      "type": "scatter",
+      "name": "Database Images",
+      "text": ["GS Alpha", "GS Beta", "GS Gamma", "Truck"],
+      "textposition": "bottom center",
+      "marker": { "color": "rgba(0, 0, 0, 0.3)", "size": 10 }
+    },
+    {
+      "x": [1.55],
+      "y": [5.25],
+      "mode": "markers+text",
+      "type": "scatter",
+      "name": "Query: German Shepherd",
+      "text": ["User Query"],
+      "textposition": "top center",
+      "marker": { "color": "rgb(200, 16, 46)", "size": 14}
+    }
+  ],
+  "layout": {
+    "title": "Retrieval: Finding a German Shepherd",
+    "xaxis": { "title": "Feature Dimension 1", "range": [0, 5] },
+    "yaxis": { "title": "Feature Dimension 2", "range": [0, 7] },
+    "shapes": [
+      {
+        "type": "circle",
+        "xref": "x", "yref": "y",
+        "x0": 1.1, "y0": 4.7, "x1": 1.9, "y1": 5.8,
+        "line": { "color": "rgb(200, 16, 46)", "dash": "dot" },
+        "label": { "text": "Canine Neighborhood", "font": { "size": 10 } }
+      }
+    ]
+  }
+}
+</code></pre> <h4 id="textual-models">Textual Models</h4> <p>While Vision models were learning to group pixels, Natural Language Processing (NLP) was undergoing a similar revolution. Instead of looking at pixels, models like BERT or GPT-style Transformers look at textual corpus to understand relationships between words, sentences, and contexts.</p> <p>The goal remains the same: to learn an embedding space where semantically similar words/sentences are grouped together. For example,</p> <ul> <li>The embeddings correspoding to “Dog” and “Puppy” should be close to each other compared to a non-related concept such as a Truck. (or)</li> <li>“Canine” and “German Shepherd” should fall into the same “neighborhood,” even if they don’t share a single letter in common.</li> </ul> <p>This allows for Semantic Search. If you search a database for the word “canine,” a robust text space knows to retrieve documents containing “dog,” because the model has learned that these concepts live in the same geometric region of the embedding map.</p> <pre><code class="language-plotly">{
+  "data": [
+    {
+      "x": [4.2, 4.4, 4.0, 1.2],
+      "y": [1.2, 1.5, 0.9, 5.2],
+      "mode": "markers+text",
+      "type": "scatter",
+      "name": "Text Embeddings",
+      "text": ["Dog", "Puppy", "Canine", "Truck"],
+      "textposition": "top center",
+      "marker": { "color": "rgb(128, 0, 128)", "size": 12, "symbol": "star"  }
+    }
+  ],
+  "layout": {
+    "title": "The Semantic Text Space (Unaligned)",
+    "xaxis": { "title": "Language Dimension 1", "range": [0, 5] },
+    "yaxis": { "title": "Language Dimension 2", "range": [0, 7] },
+    "shapes": [
+      {
+        "type": "circle",
+        "xref": "x", "yref": "y",
+        "x0": 3.7, "y0": 0.6, "x1": 4.7, "y1": 1.8,
+        "line": { "color": "rgb(128, 0, 128)", "dash": "dot" }
+      }
+    ],
+    "annotations": [
+      {
+        "x": 4.2, "y": 2.2, "text": "Linguistic 'Canine' Cluster", "showarrow": false, "font": { "color": "rgb(128, 0, 128)" }
+      }
+    ]
+  }
+}
+</code></pre> <h3 id="mult-modal-spaces">Mult-Modal Spaces</h3> <p>At this point, we have built two incredibly powerful geometric spaces: a Visual Space where images are orgnaized based on semantic content and a Textual Space where words/sentences with same semantic meaning are grouped together.</p> <h5 id="the-cross-modal-search-problem">The Cross-Modal Search Problem</h5> <p>We already know how to use these spaces individually:</p> <ul> <li> <p>We can use an image of a dog to search for other images of dogs in the Visual embedding space (Image-to-Image).</p> </li> <li> <p>Similarly, we can use keywords to search for related documents or sentences in the Textual space (Text-to-Text).</p> </li> </ul> <blockquote> <p>🔍What if we want to search for all images of a dog by specifying a keyword such as <strong>“German Shepherd”</strong>?</p> </blockquote> <h4 id="multimodal-spaces">Multimodal spaces</h4> <p>To solve the cross-modal search problem, We will need a joint space where image and text embedding can live in harmony. This is a unified geometric space where an image of a German Shepherd and the text string “German Shepherd” are mapped to the same (or very similar) coordinates.</p> <pre><code class="language-plotly">{
+  "data": [
+    {
+      "x": [1.2, 1.4, 0.9],
+      "y": [5.2, 5.5, 4.9],
+      "mode": "markers",
+      "type": "scatter",
+      "name": "Image Embeddings (Dogs)",
+      "marker": { "color": "rgb(200, 16, 46)", "size": 12, "symbol": "circle" }
+    },
+    {
+      "x": [1.25, 1.45, 0.85],
+      "y": [5.15, 5.45, 4.85],
+      "mode": "markers",
+      "type": "scatter",
+      "name": "Text Embeddings (Dogs)",
+      "marker": { "color": "rgb(128, 0, 128)", "size": 14, "symbol": "star" }
+    },
+    {
+      "x": [4.2, 4.4, 4.0],
+      "y": [1.2, 1.5, 0.9],
+      "mode": "markers",
+      "type": "scatter",
+      "name": "Image Embeddings (Vehicles)",
+      "marker": { "color": "rgb(0, 123, 255)", "size": 12, "symbol": "circle" }
+    },
+    {
+      "x": [4.25, 4.45, 4.05],
+      "y": [1.15, 1.45, 0.85],
+      "mode": "markers",
+      "type": "scatter",
+      "name": "Text Embeddings (Vehicles)",
+      "marker": { "color": "rgb(0, 128, 128)", "size": 14, "symbol": "star" }
+    }
+  ],
+  "layout": {
+    "title": "A Harmonious Multimodal Space",
+    "xaxis": { "title": "Unified Dimension 1", "range": [0, 6] },
+    "yaxis": { "title": "Unified Dimension 2", "range": [0, 7] },
+    "legend": { "orientation": "h", "y": -0.2 }
+  }
+}
+</code></pre> <h6 id="challenges-to-achieving-harmony">Challenges to Achieving Harmony</h6> <ul> <li> <strong>The Dimensionality Mismatch</strong>: Vision and text models are often trained independently using different architectures. This means their “outputs” (the embedding vectors) rarely share the same shape. <ul> <li>A ResNet or Vision Transformer might produce a 512-dimensional vector.</li> <li>A BERT or GPT-based text encoder might produce a 768 or 1024-dimensional vector. Mathematically, you cannot compare a 512D point to a 768D point. They don’t even exist in the same space.</li> </ul> </li> <li> <strong>The Semantic Disconnect</strong>: Even if we force both models to output the same number of dimensions, there is no reason for independently trained models to align. <ul> <li>The Vision model might learn that top-left space correspond to dogs.</li> <li>The Text model might learn bottom-right space correspond to dogs.</li> </ul> <p>Without a shared training objective, an image of a German Shepherd and the word “German Shepherd” will be scattered in completely different parts of their respective maps.</p> </li> <li> <strong>Scaling &amp; Generalization</strong>: Even if we solve the dimensionality and alignment issues, training on small, curated datasets (like ImageNet) often fails to produce a truly “generalized” embedding space. To learn a space where any text can map to any image, we need hundreds of millions of diverse image-text pairs. Furthermore, Aligning these “Web-Scale” datasets requires massive computational resources to process the billions of contrastive relationships during training.</li> </ul> <hr> <h3 id="clip-contrastive-language-image-pre-training">CLIP (Contrastive Language-Image Pre-training)</h3> <p>CLIP is a foundational model from OpenAI that addresses these challenges with elegance. By leveraging Contrastive Learning, it bridges the gap between vision and language to build a truly robust multi-modal embedding space.</p> <p><em>In our next post, we will look at exactly how CLIP’s architecture works and why “Contrastive” is the secret sauce for its success.</em></p> </div> </article> <br> <hr> <br> <ul class="list-disc pl-8"></ul> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://pmantini.github.io/profile/projects/adoc/" target="_blank">ADOC | Pranav Mantini</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://pmantini.github.io/profile/projects/uhctd/" target="_blank">UHCTD | Pranav Mantini</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://quantitativeimaginglaboratory.github.io/BilinearCLIP/" target="_blank" rel="external nofollow noopener">BiCLIP</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/profile/blog/2026/deep-dive-into-datasets/">Visual, Audio, and Textual Datasets</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/profile/blog/2026/imagenet-16/">Imagenet-16</a> </li> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Pranav Mantini. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/profile/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/profile/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/plotly.js@3.0.1/dist/plotly.min.js" integrity="sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q=" crossorigin="anonymous"></script> <script defer src="/profile/assets/js/plotly-setup.js?v=5e81fc889064852664784cb29c0d6970" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/profile/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script> <script src="/profile/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script> <script defer src="/profile/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script> <script defer src="/profile/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/profile/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/profile/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/profile/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/profile/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/profile/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/profile/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/profile/assets/js/search-data.js"></script> <script src="/profile/assets/js/shortcut-key.js?v=ccc841c459bfc0e64c1c2b5acd10df02"></script> </body> </html>
