@@ -131,6 +131,14 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
+  - name: GeoStack    
+    posts:
+      - title: "A Framework for Quasi-Abelian Knowledge Composition in VLMs"
+        url: https://quantitativeimaginglaboratory.github.io/GeoStack/
+        published_date: 2026-05-08 # Use the date of your paper/release
+        description: "Official project page for the GeoStack paper on arXiv."
+    categories: [external-posts]
+    tags: [clip]
   - name: Bilinear CLIP    
     posts:
       - title: "Bilinear CLIP: Geometric Alignment for Few-Shot Learning"
