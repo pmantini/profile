@@ -37,7 +37,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/profile/teaching/";
           },
-        },{id: "post-multi-modal-spaces",
+        },{id: "post-clip-architecture-for-image-text-alignment",
+        
+          title: "CLIP: Architecture for Image-Text Alignment",
+        
+        description: "Understanding how CLIP bridges the gap between vision and language.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/profile/blog/2026/clip-2/";
+          
+        },
+      },{id: "post-geostack-geometric-stacking-for-knowledge-composition",
+        
+          title: 'GeoStack: Geometric Stacking for Knowledge Composition <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://quantitativeimaginglaboratory.github.io/GeoStack/", "_blank");
+          
+        },
+      },{id: "post-multi-modal-spaces",
         
           title: "Multi-Modal Spaces",
         
@@ -117,6 +139,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-alert-our-research-on-biclip-bilinear-clip-for-parameter-efficient-fine-tuning-has-been-accepted-at-dgebf-2026-a-cvpr-workshop-this-work-introduces-a-bilinear-unit-to-align-vision-language-manifolds-with-minimal-parameters",
           title: '🚀 New Paper Alert! Our research on BiCLIP: Bilinear CLIP for Parameter-Efficient Fine-Tuning...',
           description: "",
+          section: "News",},{id: "news-our-new-paper-geostack-a-framework-for-quasi-abelian-knowledge-composition-in-vlms-is-now-available-on-arxiv-geostack-allows-for-the-modular-stacking-of-domain-specific-experts-with-constant-time-inference-complexity-check-out-the-project-page-for-more-results-and-visualizations",
+          title: 'Our new paper, GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs, is...',
+          description: "",
           section: "News",},{id: "projects-adoc",
           title: 'ADOC',
           description: "A Day on Campus Dataset. An Anomaly Detection Dataset for Events in a Single Camera.",
@@ -132,6 +157,11 @@ ninja.data = [{
           description: "Convolutional Quadratic Neural Networks",
           section: "Projects",handler: () => {
               window.location.href = "/profile/projects/cqnn/";
+            },},{id: "projects-geostack",
+          title: 'GeoStack',
+          description: "A Framework for Quasi-Abelian Knowledge Composition in VLMs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/profile/projects/geostack/";
             },},{id: "projects-image-quality-analysis",
           title: 'Image Quality Analysis',
           description: "Evaluating the impact of compression, noise, and artifacts on Deep Learning models.",
